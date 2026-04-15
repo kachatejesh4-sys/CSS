@@ -1,0 +1,33 @@
+.item {
+    margin: 30px;
+    padding: 40px;
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: brown;
+}
+
+@media (max-width:420px){
+
+    .container{
+        background-color: chartreuse;
+        flex-direction: column;
+    }
+}
+
+@media ((min-width:421px) and (max-width:1024px)){
+
+    .container{    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    background-color: darkmagenta;
+    flex-direction: row;
+    }
+}
