@@ -1,0 +1,19 @@
+
+.product {
+    background-color: brown;
+    color: rgb(238, 104, 15);
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 4px 3px;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns:5fr 5fr 5fr 5fr;
+    gap: 200px;
+
+}
