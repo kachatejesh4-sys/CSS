@@ -1,0 +1,6 @@
+/*  Child Selector */
+
+.first-container >  p {
+    background-color: red;
+    color:white;
+}
