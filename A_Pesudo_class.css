@@ -1,0 +1,22 @@
+/* pesudo - Selector */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: pink;
+    color:white;
+}
+
+a:focus {
+    /* border: 2px solid red; */
+    background-color: rgb(72, 112, 72);
+    color:white;
+}
+
+.page-link {
+    padding:20px;
+    margin:20px;
+   
+}
