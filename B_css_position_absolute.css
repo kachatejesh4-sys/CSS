@@ -1,0 +1,23 @@
+
+
+.parent-container {
+    background-color: red;
+    color:white;
+    height: 200px;
+    width: 500px;
+    position: relative;
+    left:120px;
+   
+   
+}
+.child-container {
+    background-color: gray;
+    color:white;
+    height: 100px;
+    width: 100px;
+    padding:20px;
+    position: absolute;
+    left:120px;
+    top:25px;
+    
+}
